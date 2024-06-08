@@ -15,6 +15,6 @@ describe('HelloWorld', () => {
     const wrapper = mount(App)
     const input = wrapper.find('input')
     input.setValue('Hello World')
-    expect(input.element.value).toBe('Hello World Input')
+    expect(input.element.value).toBe('Hello World')
   })
 })
